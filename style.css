@@ -359,4 +359,30 @@ article .icon{
   footer p {
     text-align: center;
   }
+  .about-containers {
+    display: flex; /* Use flexbox for alignment */
+    gap: 20px; /* Adds space between the flex items */
+}
+
+.details-container {
+    margin: 10px; /* Adjust this value to increase/decrease space */
+    /* Other styles as needed */
+}
+.btn-containaire {
+    display: flex; /* Use flexbox for layout */
+    gap: 15px; /* Adjust this value for spacing between buttons */
+}
+
+.btn {
+    /* Optional: Add some padding for better button size */
+    padding: 10px 20px;
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 20px; /* Rounded corners for buttons */
+    color: white; /* Text color */
+    background-color: black; /* Button background color */
+}
+
+.btn-color-1 {
+    background-color: black; /* Different color for the second button */
+}
   
